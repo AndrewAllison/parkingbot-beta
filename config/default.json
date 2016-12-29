@@ -1,6 +1,6 @@
 {
-    "appSecret": "9b49fd9c8dc435d03d3af23b30be0405",
-    "pageAccessToken": "EAAE1m6h8z2UBALZCFg2MCvV7MZA0SnSwXIQIVYZAGPPb7EFHoS7yqyFYafJwZCEZCw7GuAclJk78a8MYYcMWzaU5YYagbRcRE0r6NvZBFmFCeZCxlleSMtEGxZC2WZC664Sr3W6N3DpccPR9MhxZB96lZBZALLLo9lM4fTAPcePyC3rZARAZDZD",
+    "appSecret": "c8869b250a559a5661e8968b9f1dd9ec",
+    "pageAccessToken": "EAAFNfdKlv7cBAFZBYpL7WHvWbIEngwZCiutgRZCKFVTFXw7hGxUOAigyBzbemzPuTZBM1i2rilJ9okb2J05DLJlgxklajbYtVp7BUfrtZBQPOXtwqyXZBPHaS6GR0oZBx61PRCkocGkZA3XbmEesZC4cg3atOFjk8dNkOzGvqvm9OFQZDZD",
     "validationToken": "i_m_a_token_validation",
-    "serverURL": "https://serene-fjord-20318.herokuapp.com/"
+    "serverURL": "https://4e1e6678.ngrok.io/"
 }
