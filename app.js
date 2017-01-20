@@ -16,11 +16,28 @@ const
   crypto = require('crypto'),
   express = require('express'),
   https = require('https'),
-  request = require('request');
+  request = require('request'),
+  graphqlHTTP = require('express-graphql');
 
+var { buildSchema } = require('graphql');
+
+var schema = buildSchema(`
+  type Query {
+    hello: String
+  }
+`);
+
+var root = { hello: () => 'Hello world!' };
 var UserController = require('./controllers/user.controller');
 
 var app = express();
+
+app.use('/graphql', graphqlHTTP({
+  schema: schema,
+  rootValue: root,
+  graphiql: true,
+}));
+
 app.set('port', process.env.PORT || 5000);
 app.set('view engine', 'ejs');
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
